@@ -30,11 +30,6 @@ public class ResumoCompraActivity extends AppCompatActivity {
         if(intent.hasExtra("pacote")){
             Pacote pacote = (Pacote) intent.getSerializableExtra("pacote");
 
-            mostraLocal(pacote);
-            mostraImagem(pacote);
-            mostraPreco(pacote);
-            mostraData(pacote);
-
         }
     }
 
