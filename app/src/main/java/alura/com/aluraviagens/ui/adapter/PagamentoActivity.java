@@ -30,8 +30,6 @@ public class PagamentoActivity extends AppCompatActivity {
         if (intent.hasExtra("pacote")){
             final Pacote pacote = (Pacote) intent.getSerializableExtra("pacote");
 
-            mostraPreco(pacote);
-
             Button botaoFinalizaCompra = findViewById(R.id.pagamento_botao_finaliza_compra);
             botaoFinalizaCompra.setOnClickListener(new View.OnClickListener() {
                 @Override
